@@ -1,0 +1,1 @@
+document.querySelectorAll('a[data-service]').forEach(a=>{a.addEventListener('click',()=>{try{sessionStorage.setItem('ks_service',a.dataset.service)}catch(e){}})});const pick=document.querySelector('select[name="service"]');if(pick){try{const service=sessionStorage.getItem('ks_service');if(service){pick.value=service;sessionStorage.removeItem('ks_service')}}catch(e){}}

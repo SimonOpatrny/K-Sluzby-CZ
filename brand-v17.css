@@ -1,0 +1,24 @@
+/* V17: citelne cervene akcenty napric webem, zluta zustava hlavni */
+:root{--brand-red:#dc3035;--brand-red-dark:#b91f28}
+/* Jednotny cerveny pruh je videt na KAZDE strance hned pod navigaci. */
+.header{border-bottom:3px solid var(--brand-red)!important}
+/* Red appears on prominent nav/CTA details without replacing yellow buttons. */
+.nav-cta span,.btn-yellow span{color:var(--brand-red-dark)!important;font-weight:900}
+.desktop-nav a[aria-current="page"]:after,.desktop-nav a.active:after{background:var(--brand-red)!important}
+/* Karty sluzeb: cerveny detail v pravem hornim rohu. */
+.studio-tile,.v5-service-card,.sv13-section,.gallery-v11-card,.v5-rental-card{position:relative}
+.studio-tile:before,.v5-service-card:before{content:"";position:absolute;top:0;left:0;width:70px;height:4px;background:var(--brand-red);z-index:3;border-radius:0 0 5px 0;pointer-events:none}
+/* Cervene doplnkove vizualni signaly v hero a nadpisech. */
+.hero .eyebrow .line,.studio-page-hero .eyebrow .line{background:var(--brand-red)!important}
+.hero-proof .proof:first-child{border-left:3px solid var(--brand-red);padding-left:14px}
+.hero-bottom>span:first-child:before,.footer-bottom>span:first-child:before{width:9px;height:9px;background:var(--brand-red)}
+/* Karty s fotografiemi: vyrazny, ale maly cerveny detail. */
+.sv13-photo:after{content:"";position:absolute;left:0;bottom:0;width:56px;height:5px;background:var(--brand-red);z-index:2;border-radius:0 5px 0 0;pointer-events:none}
+.gallery-v11-card:after{content:"";position:absolute;top:0;left:0;width:58px;height:5px;background:var(--brand-red);z-index:2;pointer-events:none}
+/* V galerii se aktivni filtr jasne odlisi cervenou spodní linkou. */
+.gallery-v11-filter.active,.gallery-v11-filter[aria-pressed="true"]{box-shadow:inset 0 -4px 0 var(--brand-red)!important}
+/* Footer s konzistentni cervenou linkou na vsech podstrankach. */
+.footer{border-top:4px solid var(--brand-red)!important}
+/* Cervene hover detaily jsou vedle zlute, nikoli misto ni. */
+.btn-outline:hover,.btn-dark:hover{border-color:var(--brand-red)!important}
+@media(max-width:850px){.header{border-bottom-width:3px!important}.hero-proof .proof:first-child{padding-left:9px}}

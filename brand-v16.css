@@ -1,0 +1,42 @@
+/* K-SLUZBY CZ | jednotna firemni paleta na vsech strankach */
+:root{--ink:#141414;--black:#0b0c0e;--yellow:#ffcc00;--cream:#f5f4ef;--muted:#6d7073;--line:#dedede;--brand-red:#d52b2e;--brand-charcoal:#181b1f}
+html{scrollbar-color:#ffcc00 #15171a}
+body{color:#17191c;background:#f5f4ef}
+.header,.footer,.hero,.studio-page-hero{background-color:#14171b}
+.header{border-bottom:1px solid #ffffff18}
+.topbar,.ticker{background:#ffcc00;color:#111}
+.brand-icon,.brand-cz,.eyebrow,.photo-label .tiny,.footer-main>div>span,.back-top,.hero-bottom a{color:#ffcc00}
+.brand-square,.eyebrow .line,.hero-visual:before{background:#ffcc00}
+.desktop-nav a:hover,.desktop-nav a[aria-current=page],.desktop-nav a.active,.mobile-nav a:hover{color:#ffcc00}
+.nav-cta,.btn-yellow,.floating-tag,.pricing-aside,.vehicle-footer>a{background:#ffcc00;color:#111}
+.nav-cta:hover,.btn-yellow:hover{background:#ffe05c}
+.btn-yellow,.nav-cta{box-shadow:0 10px 28px #ffcc0017}
+.hero h1 em,h2 em,h3 em,.brand-cz{color:#ffcc00}
+.hero,.pricing,.footer{color:#f8f8f7}
+.pricing{background:#15181c}
+.pricing-table{background:#21262c}
+.price-row,.price-foot{border-color:#ffffff25}
+.pricing-aside h3 em{color:#151515}
+.contact{background:#efefeb}
+.contact-info h2 em{color:#bd9500}
+.btn-dark{background:#15181c;color:#fff}
+.btn-dark:hover{background:#252b31}
+.mobile-nav{background:#16191d}
+.menu-btn span{background:#ffcc00}
+.form-panel input:focus,.form-panel select:focus,.form-panel textarea:focus{border-color:#ffcc00;box-shadow:0 0 0 3px #ffcc002b}
+/* Red is a restrained secondary accent: micro-labels and decorative markers only. */
+.status-dot{background:#d52b2e;box-shadow:0 0 0 4px #d52b2e20}
+.hero-visual:before{background:#d52b2e}
+.hero-bottom>span:first-child:before,.footer-bottom>span:first-child:before{content:'';display:inline-block;width:7px;height:7px;margin-right:10px;background:#d52b2e;border-radius:50%;vertical-align:middle}
+.studio-page-index,.tile-count{color:#ffcc00}
+.studio-cta,.studio-price{border-color:#ffcc003d}
+.studio-tile:hover,.v5-service-card:hover{border-color:#ffcc00}
+.sv13-kicker,.sv13-photo-tag{color:#ffcc00}
+.sv13-pills a:hover,.sv13-pills a:focus-visible{border-color:#ffcc00}
+.gallery-v11-filter.active,.gallery-v11-filter[aria-pressed=true]{background:#17191c;color:#ffcc00}
+.gallery-v11-filter:hover{border-color:#ffcc00}
+.gallery-v11-card:focus-visible,.gallery-v11-filter:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid #ffcc00;outline-offset:3px}
+.v5-rental-card,.sv13-photo,.gallery-v11-card{border-color:#25252516}
+/* Consistent yellow CTA and fine red detail across all pages */
+.btn-yellow:active,.nav-cta:active{background:#eebd00}
+@media(max-width:850px){.mobile-nav{border-top:1px solid #ffcc0035}}

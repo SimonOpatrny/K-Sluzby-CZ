@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Demonstrační návrh, nepovolovat indexaci před schválením a nasazením.

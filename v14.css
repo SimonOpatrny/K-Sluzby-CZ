@@ -1,0 +1,13 @@
+/* V14: hlavni vizual – lokalni, bez externiho nacitani */
+.hero-visual{background:#13202b;overflow:hidden;isolation:isolate}
+.hero-photo{background-image:linear-gradient(180deg,rgba(8,13,19,.03) 0%,rgba(8,13,19,.04) 50%,rgba(8,13,19,.6) 100%),url('https://img1.wsimg.com/isteam/ip/279da730-44c8-4d90-9d71-61ec15ac3c3d/dsc03670_optimized.png')!important;background-size:cover!important;background-position:51% 50%!important;transform:scale(1.035);transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.hero-visual:hover .hero-photo{transform:scale(1.085)}
+.hero-visual .visual-overlay{background:linear-gradient(180deg,transparent 53%,rgba(6,10,15,.78) 100%)}
+.hero-visual .photo-label{bottom:30px;left:30px;text-shadow:0 3px 18px #000}
+.hero-visual .photo-label strong{font-size:clamp(25px,2.3vw,36px)}
+.hero-visual .floating-tag{background:#ffd02e}
+@media(max-width:620px){.hero-photo{background-position:48% center!important}.hero-visual .photo-label{left:22px;bottom:22px}}
+@media(prefers-reduced-motion:reduce){.hero-photo,.hero-visual:hover .hero-photo{transform:none}}
+
+/* V15: real moving photo instead of vector illustration */
+.hero-photo{background-position:center 43%!important;background-color:#172029!important}
